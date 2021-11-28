@@ -1,0 +1,59 @@
+{
+    "name": "Uncompleted Work",
+    "startActions" : {
+        "Create Assignment" : {
+            
+        }
+    },
+    "steps":{
+        "assignedToStudent":{
+            "actions":{
+                "Submit" : {
+                    "displayName" : "Submit for Grading",
+                    "arrivalStep" : "",
+                    "requiredRoles" : [
+                        "student",
+                        "parent"
+                    ]
+                },
+                "Ask Question" : {
+                    "displayName" : "Ask Question",
+                    "arrivalStep" : "",
+                    "requiredRoles" : [
+                        "student",
+                        "parent"
+                    ]
+                },
+                "Cancel Assignment" : {
+                    "requiredRoles" : [
+                        "Teacher"
+                    ]
+                }  
+            },
+            "views" : [
+                { "Task List" : "Student" },
+                { "Watch List" : "Parent" },
+                { "Student Work" : "Teacher" }
+            ]
+        }
+    },
+    "workflowProcessVariables":[
+
+    ],
+    "onCompletionEvents":[
+
+    ],
+    "commonActions":[
+
+    ],
+    "participantKinds":[
+        "Student",
+        "Teacher",
+        "Teacher's Assistant",
+        "Administrator",
+        "Parent"
+    ],
+    "variables":[
+
+    ]
+}

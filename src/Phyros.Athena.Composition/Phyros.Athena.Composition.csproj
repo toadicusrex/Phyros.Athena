@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.2-dev-10284" />
+    <PackageReference Include="SimpleInjector" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Phyros.Athena.Engines.Default\Phyros.Athena.Engines.Default.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.Logging.Serilog\Phyros.Athena.Logging.SerilogLogger.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.Managers.Default\Phyros.Athena.Managers.Default.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.ProcessItemStore.Default\Phyros.Athena.ProcessItemStore.Default.csproj" />
+  </ItemGroup>
+
+</Project>

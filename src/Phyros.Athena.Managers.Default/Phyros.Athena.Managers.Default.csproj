@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Phyros.Athena.Engines\Phyros.Athena.Engines.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.EngineTaskStore\Phyros.Athena.EngineTaskQueue.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.Managers\Phyros.Athena.Managers.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.ProcessStore\Phyros.Athena.ProcessStore.csproj" />
+  </ItemGroup>
+
+</Project>

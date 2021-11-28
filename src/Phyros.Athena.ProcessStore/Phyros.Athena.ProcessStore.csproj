@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Phyros.Athena.Model.Workflow.Processes\src\Phyros.Athena.Model.Workflow.Processes\Phyros.Athena.Model.Workflow.Processes.csproj" />
+  </ItemGroup>
+
+</Project>

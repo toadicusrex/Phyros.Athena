@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.0.0-alpha0002" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0-release-20210422-02" />
+    <PackageReference Include="Polly" Version="7.2.2" />
+    <PackageReference Include="Serilog.Sinks.TestCorrelator" Version="3.2.0" />
+    <PackageReference Include="SpecFlow" Version="3.7.38" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.7.38" />
+    <PackageReference Include="SpecFlow.xUnit" Version="3.7.38" />
+    <PackageReference Include="SpecRun.Runner" Version="3.7.3" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Phyros.Athena.Model.Workflow.Processes\src\Phyros.Athena.Model.Workflow.Processes\Phyros.Athena.Model.Workflow.Processes.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.Composition\Phyros.Athena.Composition.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.EngineTaskStore\Phyros.Athena.EngineTaskQueue.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.EventQueue\Phyros.Athena.EventQueue.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.ProcessStore\Phyros.Athena.ProcessStore.csproj" />
+  </ItemGroup>
+
+</Project>

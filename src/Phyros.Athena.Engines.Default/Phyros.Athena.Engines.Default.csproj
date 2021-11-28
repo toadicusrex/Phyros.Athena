@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Phyros.Athena.Engines\Phyros.Athena.Engines.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.EngineTaskStore\Phyros.Athena.EngineTaskQueue.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.EventQueue\Phyros.Athena.EventQueue.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.Logging\Phyros.Athena.Logging.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.Model.Workflow.Exceptions\Phyros.Athena.Model.Workflow.Exceptions.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.ProcessItemStore\Phyros.Athena.ProcessItemStore.csproj" />
+    <ProjectReference Include="..\Phyros.Athena.ProcessStore\Phyros.Athena.ProcessStore.csproj" />
+  </ItemGroup>
+
+</Project>
